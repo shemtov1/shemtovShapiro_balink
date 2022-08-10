@@ -1,0 +1,353 @@
+{
+	"info": {
+		"_postman_id": "e94ce5f3-86dd-4d7c-9253-5772ed9fd9ba",
+		"name": "BaLink",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add an animal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Felix",
+							"type": "text"
+						},
+						{
+							"key": "species",
+							"value": "Cat",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/addanimal.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"addanimal.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete an Animal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/deleteanimal.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"deleteanimal.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get an Animal by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/getanimal.php?id=2",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"getanimal.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Animals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/getanimals.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"getanimals.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "Joe",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Biden",
+							"type": "text"
+						},
+						{
+							"key": "phoneNumber",
+							"value": "555-1212",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Washington DC",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "United States",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/addperson.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"addperson.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Person By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/getperson.php?id=1",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"getperson.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Persons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/getpersons.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"getpersons.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete A Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/deleteperson.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"deleteperson.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add a Membership",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "animals_id",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "persons_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/addmembership.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"addmembership.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a membership",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "animals_id",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "persons_id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/deletemembership.php",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"deletemembership.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all animals belonging to a Person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://shemtov-shapiro.com/api/posts/get_animals_of_person.php?id=2",
+					"protocol": "https",
+					"host": [
+						"shemtov-shapiro",
+						"com"
+					],
+					"path": [
+						"api",
+						"posts",
+						"get_animals_of_person.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
